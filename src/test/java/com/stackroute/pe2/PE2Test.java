@@ -55,40 +55,7 @@ public class PE2Test {
 		assertNull(null, obj.ob.getMemberVariable(null, 0, 0));
 	}
 	
-	/*@Test
-	public void pallindromeTest() {
-		assertEquals(true, pallindrome.ispallindrome("qwertytrewq"));
-		assertEquals(null, pallindrome.ispallindrome(null));
-		assertEquals(true, pallindrome.ispallindrome("yuipiuy"));
-	}
-	
 	@Test
-	public void pallindromeFailure() {
-		assertNotEquals(false, pallindrome.ispallindrome("asdfghgfdsa"));
-	}
-	
-	@Test
-	public void isPow4Test() {
-		assertEquals(true, pallindrome.isPow4(256));
-	}
-	
-	@Test
-	public void isPow4Failure() {
-		assertNotEquals(false, pallindrome.isPow4(64));
-	}
-	
-	@Test
-	public void MemVarTest() {
-		assertArrayEquals(new Object[] {"Harry Potter", 30, 2500.3}, pallindrome.ob.getMemVar("Harry Potter", 30, 2500.3));
-	}
-	
-	@Test
-	public void MemVarFailure() {
-		assertNotEquals(new Object[] {"Harry Potter", 30, 2500}, pallindrome.ob.getMemVar("Harry Potter", 30, 2500.3));
-		assertNull(null, pallindrome.ob.getMemVar(null, 0, 0));
-	}
-	
-	*/@Test
 	public void isEvenTest() {
 		assertEquals(true, obj.isEven(98));
 		assertEquals(false, obj.isEven(99));
